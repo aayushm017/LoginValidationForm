@@ -1,0 +1,13 @@
+Using git:
+
+npm init
+npm i express mongodb mongoose body-parser ejs nodemon dotenv
+i means (install)
+
+To run a body-parser:-
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+
+The res.render() function is used to render a view and sends the rendered HTML string to the
+client. 
